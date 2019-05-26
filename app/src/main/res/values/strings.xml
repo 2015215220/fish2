@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">基于讯飞语音云平台的老人陪护系统设计与实现</string>
+    <string name="time">设置吃药时间</string>
+    <string name="cancelAlarm">取消闹钟</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="story">"刚才走在路上，接了一个陌生电话，一个女的，开口就说：" +
+    "“你好！恭喜你中了我们公司二等奖30万！”我还没说话，她自己哈哈哈大笑又说：" +
+    "“不好意思，第一次骗人，没忍住……”然后，她挂断了……只留下我站在风中凌乱-_-#如果你养一只鹦鹉，" +
+    "教他什么话？ 救我，我被变成鹦鹉了！"</string>
+    <string name="wangguan"> "网关没有连接上，请稍后在试"</string>
+
+</resources>

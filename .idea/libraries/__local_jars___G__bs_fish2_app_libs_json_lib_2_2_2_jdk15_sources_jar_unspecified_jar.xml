@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_jars__:G.\bs\fish2\app\libs\json-lib-2.2.2-jdk15-sources.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/json-lib-2.2.2-jdk15-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:gravity="center_vertical"
+        android:text="注册"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_alignTop="@+id/btn1"
+        android:layout_alignRight="@+id/tvForgot"
+        android:layout_alignEnd="@+id/tvForgot" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:gravity="center_vertical"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_below="@+id/tvForgot"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_alignStart="@+id/phone"
+        android:layout_marginTop="102dp" />
+
+    <TextView
+        android:id="@+id/tvLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="语音"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="请输入用户名"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name"
+        android:layout_below="@+id/name"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvForgot"
+        style="@android:style/TextAppearance.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Forgot password? Tap here"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

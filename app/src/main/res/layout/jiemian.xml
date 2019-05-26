@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".Jiemian">
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="开启您的时刻"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dip"
+        />
+
+    <ImageView
+        android:id="@+id/IV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/background"
+        android:layout_above="@+id/txt1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center"
+        android:text="语音陪护"
+        android:textAppearance="@android:style/TextAppearance.Theme.Dialog"
+        android:textSize="18sp"
+        android:layout_above="@+id/btn1"
+        android:layout_alignLeft="@+id/txt2"
+        android:layout_alignStart="@+id/txt2"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="基于语音识别与合成的老人陪护系统"
+        android:textAppearance="@android:style/TextAppearance.Theme.Dialog"
+        android:textSize="18sp"
+        android:layout_above="@+id/IV1"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
